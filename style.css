@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background-color: aqua;
+    height: 50px;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px 5px 10px 5px;
+    margin: 0;
+    float: left;
+}
+
+ul li a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.hero {
+    background-color: #4d19ad;
+    height: 105px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-top: 0;
+    padding-top: 12px;
+}
+
+.content {
+    width: auto;
+    overflow: auto;
+    clear: both;
+    border: 1px solid gray;
+}
+
+.isi {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-right: 1px solid gray;
+    padding: 5px;
+    overflow: auto;
+}
+
+.sidebar {
+    float: left;
+    width: auto;
+    
+}
+
+
+footer {
+    background-color: teal;
+    height: 50px;
+    padding: 12px;
+    width: auto;
+    clear: both;
+}
+
+#klik {
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+#klik:hover {
+    background-color: bisque;
+    color: black;
+}
